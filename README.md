@@ -35,6 +35,13 @@ Chrome Page Summary is a Chrome extension that uses Gemini AI to generate fast, 
 
 Privacy Policy: [Privacy Policy](https://thanh-abaii.github.io/chrome-page-summary-extension/privacy-policy.html)
 
+### Screenshots
+![Popup Before](./screenshots/Popup-Before-1280x800.jpg)
+![Enter API Key](./screenshots/EnterGoogleAPIKey-1280x800.jpg)
+![Context Menu](./screenshots/ContextMenu-1280x800.jpg)
+![Popup After](./screenshots/Popup-After-1280x800.jpg)
+![Result Page](./screenshots/Resultpage-1280x800.jpg)
+
 [⬆ Back to language tabs](#chrome-page-summary-extension)
 
 ---
