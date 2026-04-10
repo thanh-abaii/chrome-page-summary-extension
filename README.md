@@ -1,43 +1,9 @@
 # Chrome Page Summary Extension
 
 <p align="center">
-  <a href="#-tiếng-việt">🇻🇳 Tiếng Việt</a> |
-  <a href="#-english">🇺🇸 English</a>
+  <a href="#-english">🇺🇸 English</a> |
+  <a href="#-tiếng-việt">🇻🇳 Tiếng Việt</a>
 </p>
-
-## 🇻🇳 Tiếng Việt
-
-### Giới thiệu
-Chrome Page Summary là tiện ích mở rộng Chrome sử dụng Gemini AI để tóm tắt nội dung trang web nhanh, rõ ràng và có cấu trúc.
-
-### Tính năng chính
-- Tóm tắt thông minh theo 5-7 ý chính.
-- Phân tích sâu:
-  - Các nội dung chính.
-  - Các giả định hoặc thiên kiến.
-  - Các điểm cần xác minh.
-- Hỗ trợ 2 ngôn ngữ: Tiếng Việt và English.
-- Kích hoạt từ popup hoặc menu chuột phải.
-- Sao chép nhanh kết quả tóm tắt.
-
-### Cách sử dụng
-1. Mở extension và vào **Settings**.
-2. Nhập **Gemini API Key** (lấy từ Google AI Studio).
-3. Chọn ngôn ngữ đầu ra.
-4. Mở trang web cần tóm tắt.
-5. Bấm **Tóm tắt Trang** trong popup hoặc **Summarize this page** từ menu chuột phải.
-
-### Quyền riêng tư
-- API key do người dùng tự cung cấp.
-- Dữ liệu chỉ được gửi đến Gemini API để tạo tóm tắt.
-- Không chạy mã JavaScript từ nguồn remote.
-- Không thu thập dữ liệu ngoài mục đích chức năng chính.
-
-Privacy Policy: [Privacy Policy](https://thanh-abaii.github.io/chrome-page-summary-extension/privacy-policy.html)
-
-[⬆ Back to language tabs](#chrome-page-summary-extension)
-
----
 
 ## 🇺🇸 English
 
@@ -66,6 +32,40 @@ Chrome Page Summary is a Chrome extension that uses Gemini AI to generate fast, 
 - Data is sent only to Gemini API to generate summaries.
 - No remotely hosted JavaScript code is executed.
 - No data collection outside core functionality.
+
+Privacy Policy: [Privacy Policy](https://thanh-abaii.github.io/chrome-page-summary-extension/privacy-policy.html)
+
+[⬆ Back to language tabs](#chrome-page-summary-extension)
+
+---
+
+## 🇻🇳 Tiếng Việt
+
+### Giới thiệu
+Chrome Page Summary là tiện ích mở rộng Chrome sử dụng Gemini AI để tóm tắt nội dung trang web nhanh, rõ ràng và có cấu trúc.
+
+### Tính năng chính
+- Tóm tắt thông minh theo 5-7 ý chính.
+- Phân tích sâu:
+  - Các nội dung chính.
+  - Các giả định hoặc thiên kiến.
+  - Các điểm cần xác minh.
+- Hỗ trợ 2 ngôn ngữ: Tiếng Việt và English.
+- Kích hoạt từ popup hoặc menu chuột phải.
+- Sao chép nhanh kết quả tóm tắt.
+
+### Cách sử dụng
+1. Mở extension và vào **Settings**.
+2. Nhập **Gemini API Key** (lấy từ Google AI Studio).
+3. Chọn ngôn ngữ đầu ra.
+4. Mở trang web cần tóm tắt.
+5. Bấm **Tóm tắt Trang** trong popup hoặc **Summarize this page** từ menu chuột phải.
+
+### Quyền riêng tư
+- API key do người dùng tự cung cấp.
+- Dữ liệu chỉ được gửi đến Gemini API để tạo tóm tắt.
+- Không chạy mã JavaScript từ nguồn remote.
+- Không thu thập dữ liệu ngoài mục đích chức năng chính.
 
 Privacy Policy: [Privacy Policy](https://thanh-abaii.github.io/chrome-page-summary-extension/privacy-policy.html)
 
