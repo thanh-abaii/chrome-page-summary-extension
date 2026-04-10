@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Privacy Policy - Chrome Page Summary</title>
+    <style>
+      body {
+        font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+        line-height: 1.6;
+        margin: 0;
+        background: #f8fafc;
+        color: #0f172a;
+      }
+      main {
+        max-width: 860px;
+        margin: 0 auto;
+        padding: 40px 20px 56px;
+      }
+      h1,
+      h2 {
+        line-height: 1.25;
+      }
+      h1 {
+        font-size: 28px;
+        margin-bottom: 8px;
+      }
+      .meta {
+        color: #475569;
+        margin-top: 0;
+      }
+      section {
+        background: #ffffff;
+        border: 1px solid #e2e8f0;
+        border-radius: 12px;
+        padding: 20px;
+        margin: 14px 0;
+      }
+      ul {
+        margin: 8px 0 0 20px;
+      }
+      code {
+        background: #f1f5f9;
+        padding: 2px 6px;
+        border-radius: 6px;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Privacy Policy - Chrome Page Summary</h1>
+      <p class="meta">Last updated: 2026-04-10</p>
+
+      <section>
+        <h2>What this extension does</h2>
+        <p>
+          Chrome Page Summary summarizes the current webpage by sending extracted page text to
+          Google Gemini API.
+        </p>
+      </section>
+
+      <section>
+        <h2>Data we process</h2>
+        <ul>
+          <li>Page metadata: page title and URL.</li>
+          <li>Page content: readable text extracted from the currently selected tab.</li>
+          <li>User settings: Gemini API key and preferred output language.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Where data is stored</h2>
+        <ul>
+          <li><code>chrome.storage.local</code>: Gemini API key and language preference.</li>
+          <li><code>chrome.storage.session</code>: summary cache by tab id during browser session.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>External data transfer</h2>
+        <ul>
+          <li>
+            The extension sends extracted page content only to:
+            <code>https://generativelanguage.googleapis.com/*</code>
+          </li>
+          <li>The extension does not send data to any other endpoint.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Data sharing and selling</h2>
+        <ul>
+          <li>We do not sell personal data.</li>
+          <li>We do not share data with third parties except Google Gemini API used to generate summaries.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Chrome Web Store User Data Policy statement</h2>
+        <p>
+          "The use of information received from Google APIs will adhere to the Chrome Web Store
+          User Data Policy, including the Limited Use requirements."
+        </p>
+      </section>
+
+      <section>
+        <h2>Security notes</h2>
+        <ul>
+          <li>API key is entered by user and stored locally in browser extension storage.</li>
+          <li>Summary output is rendered as plain text (no HTML execution).</li>
+        </ul>
+      </section>
+    </main>
+  </body>
+</html>
